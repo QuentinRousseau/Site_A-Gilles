@@ -1,19 +1,24 @@
 body
 {
-	background-color: #FFEFD5;
-}
-#Nom_de_Boite
-{
-	text-align: center;
-	font-size: 3em;
-	color: sandybrown;
 	
+	background-color: #FFEFD5;
+
+}
+header
+{
+	background-image: url(Fond_Ecran.jpeg) ;
+	width: 550px;
+	margin: auto;
+	text-align: center;
+	text-shadow: 5px 5px 10px darkolivegreen;
+	font-size: 30px;
+	color: sandybrown;
+	border: 10px sandybrown outset;
+	border-radius: 75px;
+	box-shadow:10px 10px 20px darkolivegreen ;
+	filter: drop-shadow(1px 1px);
 }
 
-.flottant /* la classe de l'image a comme nom flottant*/
-{
-	float: left;
-}
 #Presta
 {
 
@@ -21,11 +26,13 @@ body
 	font-style: italic;
 	text-decoration: underline;
 	text-align: center;
-	font-size: 23;
+	font-size: 23px;
 	color: sandybrown;
 	
 }
-h3
+
+
+footer
 {
 	font-style: italic;
 	font-weight: bold;
@@ -36,6 +43,20 @@ h3
 
 strong
 {
-	font-size: 18;
+	font-size: 20px;
 	color: orangered;
 }
+h3
+{
+	color: sandybrown;
+}
+a:hover
+ {
+ 	text-shadow: 5px 5px 10px ;
+ 	font-weight: bold;
+ }
+ a:visited
+ {
+ 	color: #AAA;
+
+ }
